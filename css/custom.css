@@ -4,6 +4,11 @@
   border-radius: 100px;
 }
 
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
@@ -25,11 +30,20 @@ hr {
   border-width: 0;
   border-top: 2px solid #E1E1E1; }
 
-/* Sections
+/* Projects
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.projects {
+  background-image: url('../images/kor.png');
+  background-size: cover;
+  color: #fff;
+}
+
+.project {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.description {
+  text-align: justify;
 }
 
 /* Pictures
@@ -49,7 +63,7 @@ hr {
 /* Awards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .awards {
-  background-image: url('../images/bg4.png');
+  background-image: url('../images/team.png');
   background-size: cover;
   color: #fff;
 }
@@ -70,71 +84,24 @@ hr {
   font-weight: 300;
 }
 
-/* Help
+/* Contact
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.skills {
-  border-bottom: 50px solid #;
+.contact {
+  text-align: center;
+  font-size: 18px;
+}
+.contact-img {
+  opacity: 0.4;
+  transition: opacity 0.5s;
+}
+.contact-img:hover {
+  opacity: 0.8;
 }
 
-/* Categories
+/* Credits
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.categories {
-  background-image: url('../images/kor.png');
-  background-size: cover;
-  color: #fff;
-}
-.categories .section-description { 
-  margin-bottom: 4rem;
-}
-
-/* Bigger than 550 
-@media (min-width: 550px) {
-  .section {
-    padding: 12rem 0 11rem;
-  }
-  .about {
-    padding-bottom: 12rem;
-    text-align: left;
-    height: 165px;
-  }
-  .about-heading {
-    font-size: 2.4rem;
-  }
-}
-
-/* Bigger than 750 
-@media (min-width: 750px) {
-  .about {
-    height: 190px;
-  }
-  .about-heading {
-    font-size: 2.6rem;
-  }
-  .section {
-    padding: 14rem 0 15rem;
-  }
-  .about {
-    padding: 16rem 0 14rem;
-  }
-  .section-description {
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .categories {
-    padding: 15rem 0 8rem;
-  }
-}
-
-/* Bigger than 1000 
-@media (min-width: 1000px) {
-  .section {
-    padding: 20rem 0 19rem;
-  }
-  .about {
-    padding: 22rem 0;
-  }
-  .about-heading {
-    font-size: 3.0rem;
-  }
+.credits {
+  text-align: center;
+  opacity: 0.6;
+  font-weight: 100;
 }
