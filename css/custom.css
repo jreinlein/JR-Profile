@@ -88,6 +88,7 @@ hr {
 .contact-img {
   opacity: 0.4;
   transition: opacity 0.5s;
+  color: black;
 }
 .contact-img:hover {
   opacity: 0.8;
