@@ -94,6 +94,10 @@ hr {
   opacity: 0.8;
 }
 
+.no-margin {
+  margin: 0px;
+}
+
 /* Credits
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .credits {
